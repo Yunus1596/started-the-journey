@@ -1,0 +1,55 @@
+.container{
+    border:1px solid black;
+    width: 95%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hex-colors{
+    border:1px solid black ;
+    width: 85%;
+    text-align: center;
+}
+
+.hex-colors h1{
+    font-size: 2rem;
+    animation: changeColour 5s infinite alternate
+
+}
+
+.hex-colors h2{
+    border:1px solid black;
+    font: size 2rem;
+    margin-top :10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(5, 222, 222);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+@keyframes changeColour{
+   0%{
+    color:indianred;
+   }
+   20%{
+    color: blue;
+   }
+    40%{
+    color:violet;
+   }
+    60%{
+    color:yellow;
+   }
+   80%{
+    color:red;
+   }
+   100%{
+    color:rgb(0, 255, 4);
+   }
+
+}
